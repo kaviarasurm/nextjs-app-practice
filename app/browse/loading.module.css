@@ -1,0 +1,18 @@
+.loading {
+    position: absolute;
+    color: black;
+    text-align: center;
+    animation: loading 1.25s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        color: var(--grey9);
+    }
+    50% {
+        color: var(--grey7);
+    }
+    100% {
+        color: var(--grey9);
+    }
+}
